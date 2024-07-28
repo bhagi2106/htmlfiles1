@@ -1,0 +1,103 @@
+.first{
+    position: absolute;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: red;
+    padding: 10px;
+    height: 1000%; 
+    width: 20%; 
+}
+.first>h1{
+    color: white;
+}
+.first>div>a{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: medium;
+    text-decoration: none;
+    padding: 5px;
+}
+.first>div>a:hover{
+    color: black;
+    background-color: white;
+}
+.main{
+    position: relative;
+    left: 25%;
+    width: 75%;
+    margin: 25px;
+}
+.main>h1{
+    color: black;  
+}
+.main>.subh{
+    color:orangered; 
+}
+.img>img{
+     width: 100%;
+     
+} 
+.img{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+}
+.ppl{
+    display: flex;
+}
+.ppl>div{
+    width: 33.33%;
+    margin: 10PX;
+    background-color: rgba(212, 219, 227, 0.76)
+}
+.ppl>div>img{
+    width: 100%;
+}
+.ppl>div>h3{
+    color: black;
+}
+.ppl>div>h4{
+    color: grey
+}
+.ppl>div>h3,.ppl>div>h4,.ppl>div>p
+{
+    margin-left: 10px;
+}
+.table{
+    display: flex;
+}
+.table>div{
+    flex-direction: column;
+    margin-right: 10Px solid white;
+}
+.table>div>table>tr>p{
+    text-align: center;
+    padding: 1px solid lightgray;
+
+}
+.table>div>table>tr>.botton>p>a{
+    color: black;
+    background-color: white;
+}
+
+.form1>form{
+    display: flex;
+    flex-direction:column;
+}
+.form1>form>input{
+    padding: 5px;
+}
+.form1 > form > a{
+    text-align: center;
+    text-decoration-line: none;
+    background-color: rgb(230, 20, 20);
+    color: white;
+    margin-top: 10px;
+    padding: 5px;
+}
+.form1 > form > a:hover{
+    background-color: gray;
+    color: black;
+}
